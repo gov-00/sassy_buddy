@@ -53,10 +53,10 @@ app.post('/chat', async (req, res) => {
     res.status(500).json({ error: 'Something went wrong lah' });
   }
 });
-```
+/*
 app.listen(3000, () => {
   console.log('Moody Foodie running on http://localhost:3000');
-```
+*/
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Moody Foodie running on port ${PORT}`);
